@@ -19,11 +19,12 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		PrintWriter out=response.getWriter();
-		out.println("<HTML>");
-		out.println("<BODY>");
-		out.println("<H3>Hello servlet!</H3>");
-		out.println("</BODY>");
-		out.println("</HTML>");
+
+		out.println("<html>");
+		out.println("<body>");
+		out.println("<h3>Hello servlet!</h3>");
+		out.println("</body>");
+		out.println("</html>");
 	}
 
 }
